@@ -39,7 +39,8 @@ describe "./calculator.rb" do
 
   it "contains a local variable called quotient that is assigned to the result of dividing first_number by second_number" do
     first_number = 10  
-    second_number = 12  
+    second_number = 12 
+    quotient = first_number / second_number
     expect(quotient).to eq(first_number/second_number)
   end
 end

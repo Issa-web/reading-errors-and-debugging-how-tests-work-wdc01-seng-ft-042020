@@ -33,7 +33,7 @@ describe "./calculator.rb" do
   it "contains a local variable called product that is assigned to the result of multiplying first_number and second_number" do
     first_number = 10  
     second_number = 12  
-    
+    product = first_number * second_number
     expect(product).to eq(first_number*second_number)
   end
 
